@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a9e041b-c506-4422-a548-a1adf6faf6fb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CtaBacktesting/backtesting_rb.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/CtaBacktesting/backtesting_rb.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CtaBacktesting/runBacktesting.py" beforeDir="false" afterPath="$PROJECT_DIR$/CtaBacktesting/runBacktesting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rqdata_test/rq_data_test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/rqdata_test/rq_data_test1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +37,7 @@
           <entry key="ipynb" value="1" />
           <entry key="json" value="7" />
           <entry key="md" value="1" />
-          <entry key="py" value="54" />
+          <entry key="py" value="55" />
           <entry key="pyi" value="2" />
         </counts>
       </usages-collector>
@@ -48,19 +46,19 @@
           <entry key="IPNB" value="1" />
           <entry key="JSON" value="7" />
           <entry key="Markdown" value="1" />
-          <entry key="Python" value="54" />
+          <entry key="Python" value="55" />
           <entry key="PythonStub" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="1047" />
-          <entry key="py" value="1438" />
+          <entry key="py" value="1469" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2485" />
+          <entry key="Python" value="2516" />
         </counts>
       </usages-collector>
     </session>
@@ -79,6 +77,18 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rqdata_test/rq_data_test1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CtaBacktesting/loadCsv.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -91,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://D:/ProgramData/Anaconda2/Lib/site-packages/vnpy-1.9.0-py2.7.egg/vnpy/trader/app/ctaStrategy/ctaHistoryData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="82" column="39" lean-forward="true" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
+            <state relative-caret-position="155">
+              <caret line="95" column="41" lean-forward="true" selection-start-line="95" selection-start-column="41" selection-end-line="95" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -103,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CtaBacktesting/runBacktesting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="35" column="23" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="23" />
+            <state relative-caret-position="238">
+              <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -141,15 +151,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
               <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/ProgramData/Anaconda2/Lib/site-packages/rqdatac/client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="112" column="59" lean-forward="true" selection-start-line="112" selection-start-column="59" selection-end-line="112" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -197,8 +198,8 @@
         <option value="$PROJECT_DIR$/DataRecording/runDataRecording.py" />
         <option value="$PROJECT_DIR$/CtaBacktesting/runBacktesting.py" />
         <option value="D:/ProgramData/Anaconda2/Lib/site-packages/rqdatac/__init__.py" />
-        <option value="$PROJECT_DIR$/rqdata_test/rq_data_test1.py" />
         <option value="$PROJECT_DIR$/rqdata_test/mongodb_test/csv_save_to_mongo_db.py" />
+        <option value="$PROJECT_DIR$/rqdata_test/rq_data_test1.py" />
       </list>
     </option>
   </component>
@@ -232,12 +233,7 @@
             <path>
               <item name="examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="CtaBacktesting" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="DataRecording" type="462c0819:PsiDirectoryNode" />
+              <item name="rqdata_test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -443,7 +439,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/rqdata_test/rq_data_test1.py</url>
-          <line>16</line>
+          <line>17</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
@@ -640,16 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rqdata_test/rq_data_test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rqdata_test/mongodb_test/csv_save_to_mongo_db.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -719,13 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CtaBacktesting/runBacktesting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CtaBacktesting/loadCsv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -738,8 +717,25 @@
     </entry>
     <entry file="file://D:/ProgramData/Anaconda2/Lib/site-packages/vnpy-1.9.0-py2.7.egg/vnpy/trader/app/ctaStrategy/ctaHistoryData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="82" column="39" lean-forward="true" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
+        <state relative-caret-position="155">
+          <caret line="95" column="41" lean-forward="true" selection-start-line="95" selection-start-column="41" selection-end-line="95" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CtaBacktesting/runBacktesting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rqdata_test/rq_data_test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
