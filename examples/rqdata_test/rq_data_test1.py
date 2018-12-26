@@ -1,6 +1,7 @@
 import rqdatac as rq
 import pandas as pd
 import sys
+DATA_PATH = "E:\\future_data\\all_data\\"
 reload(sys)
 sys.setdefaultencoding('utf8')
 from rqdatac import *
