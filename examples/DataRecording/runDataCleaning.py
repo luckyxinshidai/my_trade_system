@@ -27,7 +27,7 @@ def cleanData(dbName, collectionName, start):
     
     mc = MongoClient('localhost', 27017)    # 创建MongoClient
     cl = mc[dbName][collectionName]         # 获取数据集合
-    d = {'datetime':{'$gte':start}}         # 只过滤从start开始的数据
+    d = {'datetime': {'$gte': start}}         # 只过滤从start开始的数据
     cx = cl.find(d)                         # 获取数据指针
     
     # 遍历数据
