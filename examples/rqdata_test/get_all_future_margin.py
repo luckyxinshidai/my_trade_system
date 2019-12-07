@@ -72,5 +72,5 @@ all_future_margin_and_open_interest = pd.DataFrame({'date': pd.Timestamp(last_tr
                                                     'future_name': future_name_list,
                                                     'margin': margin_list,
                                                     'open_interest': open_interest_list,
-                                                    'open_interest_price' : open_interest_price_list})
+                                                    'open_interest_price': open_interest_price_list})
 all_future_margin_and_open_interest.to_csv("all_future_margin_and_open_interest.csv")

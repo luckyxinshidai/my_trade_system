@@ -12,6 +12,7 @@ from vnpy.trader.app.ctaStrategy.ctaBase import MINUTE_DB_NAME
 client = pymongo.MongoClient('127.0.0.1', 27017)
 need_to_monitor_future_list = ['RB', 'TA', 'CF', 'L', 'PP', 'M', 'Y', 'AG', 'MA', 'SR']
 DATA_PATH = "E:\\future_data\\all_data\\"
+DATA_PATH1 = "E:\\future_data\\main_contract\\"
 
 
 #def test_create_mongodb_index():
@@ -96,7 +97,24 @@ def find_all_csv_and_save_to_mongodb():
                 symbol = os.path.splitext(symbol)[0]
                 print symbol
                 load_rq_csv(file_name, MINUTE_DB_NAME, symbol)
-                
+
+
+def find_all_main_contract_csv_and_save_to_mongodb():
+    for temp_contact in need_to_monitor_future_list:
+        current_dir = DATA_PATH1
+        print(current_dir)
+        index = 1
+        for root, subdirs, files in os.walk(current_dir):
+            print "第", index, "层"
+            index += 1
+            for filepath in files:
+                file_name = os.path.join(root, filepath)
+                symbol = os.path.basename(filepath)
+                symbol = os.path.splitext(symbol)[0]
+                print symbol
+                load_rq_csv(file_name, MINUTE_DB_NAME, symbol)
+
 
 if __name__ == '__main__':
-    find_all_csv_and_save_to_mongodb()
+    # find_all_csv_and_save_to_mongodb()
+    find_all_main_contract_csv_and_save_to_mongodb()
